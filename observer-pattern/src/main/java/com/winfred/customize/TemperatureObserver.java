@@ -1,4 +1,4 @@
-package com.winfred;
+package com.winfred.customize;
 
 /**
  * 温度观察者类
@@ -17,5 +17,6 @@ public class TemperatureObserver extends Observer {
     @Override
     void update() {
         System.out.println("温度变化");
+        System.out.println("当前温度为:" + this.weatherData.getTemperature());
     }
 }

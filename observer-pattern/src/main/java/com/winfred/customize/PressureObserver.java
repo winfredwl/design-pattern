@@ -1,4 +1,4 @@
-package com.winfred;
+package com.winfred.customize;
 
 /**
  * 气压观察者类
@@ -17,5 +17,6 @@ public class PressureObserver extends Observer {
     @Override
     void update() {
         System.out.println("气压变化");
+        System.out.println("当前气压为:" + this.weatherData.getPressure());
     }
 }

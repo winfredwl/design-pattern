@@ -1,4 +1,4 @@
-package com.winfred;
+package com.winfred.customize;
 
 /**
  * 观察者抽象类
