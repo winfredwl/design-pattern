@@ -1,5 +1,6 @@
 package com.winfred;
 
+import com.winfred.example_calc.*;
 import org.junit.Assert;
 import org.junit.Test;
 

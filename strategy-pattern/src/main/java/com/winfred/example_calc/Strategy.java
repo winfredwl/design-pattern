@@ -1,4 +1,4 @@
-package com.winfred;
+package com.winfred.example_calc;
 
 /**
  * 策略接口
